@@ -1,6 +1,13 @@
 # A basic JWT+REACTJS+MYSQL login logout application
 A basic application login/logout authentication application using create react app cli.
 
+## Folder structure example
+
+```
+htdocs/
+  client-jwt/
+  server-jwt/
+```
 ## Basic setup
 
 ```
