@@ -1,5 +1,5 @@
-# A basic JWT+REACTJS+MYSQL login logout application
-A basic application login/logout authentication application using create react app cli.
+# A basic JWT+REACTJS+PHP+MYSQL login/logout application
+A basic application login/logout authentication application using jwt, create react app cli, php, mysql.
 
 ## Folder structure example
 
@@ -323,7 +323,7 @@ class Login extends Component {
                         <Link className="link" to="/signup">Don't have an account? <span className="link-signup">Signup</span></Link>
                     </div>
                     {/* <div className="signiture">
-                        <h1>Template Built & Designed by Roman Chvalbo</h1>
+                        <h1></h1>
                     </div> */}
                 </div>
                 
@@ -417,7 +417,7 @@ export default class Signup extends Component {
                         <Link className="link" to="/login">Already have an account? <span className="link-signup">Login</span></Link>
                     </div>
                     {/* <div className="signiture">
-                        <h1>Template Built & Designed by Roman Chvalbo</h1>
+                        <h1></h1>
                     </div> */}
                 </div>
                 
@@ -476,7 +476,7 @@ export default class AuthHelperMethods {
                 return false;
         }
         catch (err) {
-            console.log("expired check failed! Line 42: AuthService.js");
+            console.log("expired check failed! in AuthService.js component");
             return false;
         }
     }
