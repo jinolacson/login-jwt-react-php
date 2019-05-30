@@ -19,6 +19,18 @@ composer --version : 1.6.5
 
 ```
 
+## If you want to test this by cloning, in terminal type the ff.
+
+```
+client-jwt
+- sudo yarn install
+- sudo yarn start
+
+server-jwt
+- composer install
+- sudo /opt/lampp/lampp start
+```
+
 ## Install simple JWT 
 
 1. Create folder **server-jwt**.
