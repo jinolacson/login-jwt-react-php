@@ -711,7 +711,6 @@ https://facebook.github.io/create-react-app/
 ### Reference tutorial
 
 ```
-https://github.com/rchvalbo/jwt_react_node_starting_template_complete
 https://github.com/RobDWaller/ReallySimpleJWT
 https://github.com/firebase/php-jwt
 ```
